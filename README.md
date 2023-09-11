@@ -1,4 +1,28 @@
 # Mini-Research-1
+Here's how to run the coding benchmark:
+Problem Definition: Prepare a structured list of coding problems as per the benchmark structure. Each problem should have an ID, category, description, sample input, expected output, and associated keywords.
+
+Integrate AI Solutions: Prepare AI functions (like AI_X and AI_Y in the example) that can take the sample input and provide a solution. These functions should be designed to tackle the problems defined in step 1.
+
+Evaluation: Call the evaluate function for each AI to get their scores on the problems.
+
+Analysis: Call the analyze function to compare the performances of two AIs.
+
+Report: Print or visualize the results to understand the strengths and weaknesses of each AI in different categories.
+
+(Now, when we have multiple AIs generate solutions for each problem, we can use the evaluate function to get their scores and then the analyze function to compare their performances.)
+
+Whats new and novel is Category-wise Analysis
+
+what the Benchmark Assesses:
+
+Problem-Solving Ability: At its core, the benchmark assesses how well each AI can tackle a set of coding problems.
+
+Category Proficiency: By categorizing problems, the benchmark measures proficiency in specific areas, like 'Code Transformation' or 'Code Imagination'.
+
+Keyword Analysis: With associated keywords for each problem, the benchmark could be expanded to assess AI capabilities in more specific areas, like handling "recursion" or "mathematical constants".
+
+
 Devised a set of problems that specifically measure the Generative Aspect of AI in terms of Python coding. The generative capacity of AI, in the context of coding, can be tested by examining its proficiency in:
 
 I.Code Imagination: Crafting new solutions or approaches.
@@ -120,11 +144,3 @@ Transposes a 2D matrix.
 Computes the power of a number without using the power operator or loops.
 Flattens a nested list.
 Finds the second highest value in a list.
-
-In this demonstration:
-
-There are two mock AI functions (AI_X and AI_Y).
-We call evaluate for each AI function to get their scores on the problems.
-We then call analyze to compare their performances.
-
-Now, when we have multiple AIs generate solutions for each problem, we can use the evaluate function to get their scores and then the analyze function to compare their performances.
